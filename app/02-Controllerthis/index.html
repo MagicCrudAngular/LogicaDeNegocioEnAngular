@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" ng-app='myApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body ng-controller="myController as alias">
+   <div>
+       <span>Factoria: <strong>{{alias.factory}}</strong> </span></br>
+       <span>Servicio: <strong>{{alias.service}}</strong> </span></br>
+       <span>Provider: <strong>{{alias.provider}}</strong> </span></br>
+       </br>
+       </br>
+       <button ng-click="alias.click()">Click Ok</button>
+       <button ng-click="alias.otherClick()">Click Mal</button>
+   </div>
+    <script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.js></script>
+    <script src="myApp.js"></script>
+     <script src="myConfigApp.js"></script>
+    <script src="myServices.js"></script>
+    <script src="myValuesConstant.js"></script>
+    <script src="myController.js"></script>
+
+</body>
+</html>
